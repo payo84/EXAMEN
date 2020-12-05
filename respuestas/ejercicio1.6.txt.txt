@@ -1,0 +1,20 @@
+$ git log
+cometer c88793fdf7464dbb1de038fcf19b89f4903fb4da (HEAD -> PAYO-GANDARIAS)
+Autor: PAYO-GANDARIAS <payos84@hotmail.com>
+Fecha: viernes 4 de diciembre 20:10:24 2020 +0100
+
+    Añadida respuestas a ejercicio 1.4
+
+cometer b79c7ba1a5c71fc30ef8de370fdd12c40e316a8a (origen / principal, origen / HEAD, principal)
+Autor: Carlos González Sánchez <carlosgs.iesquevedo@gmail.com>
+Fecha: Vie 4 de diciembre 11:11:30 2020 +0100
+
+    Actualizar .gitignore
+
+    Ignorar ficheros de IntelliJ y MacOS
+
+cometer 7b39baf748c6a994c95cdb9df0eba4b586319a14
+Autor: Carlos González Sánchez <carlosgs.iesquevedo@gmail.com>
+Fecha: Vie 4 de diciembre 11:03:21 2020 +0100
+
+    Compromiso inicial

@@ -1,0 +1,55 @@
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git init
+Reinitialized existing Git repository in D:/Educa/daw1_b/Escritorio/examen-PAYO-GANDARIAS/.git/
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git clone https://github.com/carlosgs-iesquevedo/entornos1T
+Cloning into 'entornos1T'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (7/7), done.
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git add .
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git commit "subiendo el examen a mi repositorio"
+error: pathspec 'subiendo el examen a mi repositorio' did not match any file(s) known to git
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git commit -m "subiendo el examen a mi repositorio"
+On branch master
+nothing to commit, working tree clean
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git branch PAYO-GANDARIAS
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git checkout PAYO-GANDARIAS
+Switched to branch 'PAYO-GANDARIAS'
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git add .
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git commit -m "Añadida respuesta ejercicio 1.4"
+On branch PAYO-GANDARIAS
+  (commit or discard the untracked or modified content in submodules)
+        modified:   entornos1T (modified content, untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git commit -m "Añadida respuesta ejercicio 1.4"
+On branch PAYO-GANDARIAS
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   entornos1T (modified content, untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> cd entornos1T
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS\entornos1T> git add .
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS\entornos1T> git commit -m "Añadida respuesta ejercicio 1.4"
+[main 57c6d7e] Añadida respuesta ejercicio 1.4
+ 2 files changed, 31 insertions(+), 1 deletion(-)
+ rewrite README.md (100%)
+ create mode 100644 respuetas/ejercicio1.4.txt
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

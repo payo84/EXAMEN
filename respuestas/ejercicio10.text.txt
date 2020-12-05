@@ -1,0 +1,103 @@
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS\entornos1T> git tag PAYO-GANDARIAS-paso5
+PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS\entornos1T> git show PAYO-GANDARIAS-paso5
+commit 0925687de46cc7f71b844f599850a8fdb57bae7a (HEAD -> main, tag: PAYO-GANDARIAS-paso5)
+Author: Sandra Lucioni <payos84@hotmail.com>
+Date:   Fri Dec 4 19:53:43 2020 +0100
+
+    Añadida respuesta ejercicio 1.6
+
+diff --git a/README.md b/README.md
+index 77916a1..ed82d0f 100644
+--- a/README.md
++++ b/README.md
+@@ -8,4 +8,7 @@
+ #### Branch PAYO-GANDARIAS
+ - Creo carpeta **respuestas** y dentro de ella añado un fichero **ejercicio1.4.txt**.
+ - Dentro de la carpeta están los comandos que he utilizado para hacer la actividad desde el terminal.
+-- Se procede a hacer _Git add_, _commit_ y _push_.
+\ No newline at end of file
++- Se procede a hacer _Git add_, _commit_ y _push_.
+:...skipping...
+commit 0925687de46cc7f71b844f599850a8fdb57bae7a (HEAD -> main, tag: PAYO-GANDARIAS-paso5)
+Author: PAYO-GANDARIAS <payos84@hotmail.com>
+Date:   Fri Dec 4 19:53:43 2020 +0100
+
+    Añadida respuesta ejercicio 1.6
+
+diff --git a/README.md b/README.md
+index 77916a1..ed82d0f 100644
+--- a/README.md
++++ b/README.md
+@@ -8,4 +8,7 @@
+ #### Branch PAYO-GANDARIAS
+ - Creo carpeta **respuestas** y dentro de ella añado un fichero **ejercicio1.4.txt**.
+ - Dentro de la carpeta están los comandos que he utilizado para hacer la actividad desde el terminal.
+-- Se procede a hacer _Git add_, _commit_ y _push_.
+\ No newline at end of file
++- Se procede a hacer _Git add_, _commit_ y _push_.
++- Como se puede ver en el código de _ejercicio1.6_, intentaba hacer _commit_ desde fuera de la carpeta, cambié la dirección de la carpeta con el 
+comando _cd_.
++- Crear carpeta _ejercicio1.6_ donde está la liosta de los commits pedidos.
++- Se procede a hacer _Git add_, _commit_ y _push_.
+diff --git a/respuetas/ejercicio1.4.txt b/respuetas/ejercicio1.4.txt
+index 2923840..189783c 100644
+--- a/respuetas/ejercicio1.4.txt
++++ b/respuetas/ejercicio1.4.txt
+@@ -17,4 +17,27 @@ On branch master
+ nothing to commit, working tree clean
+ PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git branch PAYO-GANDARIAS
+ PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git checkout PAYO-GANDARIAS
+-Switched to branch 'PAYO-GANDARIAS'
+\ No newline at end of file
++Switched to branch 'PAYO-GANDARIAS'
++PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git add .
++PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git commit -m "Añadida respuesta ejercicio 1.4"
++On branch PAYO-GANDARIAS
++  (commit or discard the untracked or modified content in submodules)
++        modified:   entornos1T (modified content, untracked content)
++
++no changes added to commit (use "git add" and/or "git commit -a")
++PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> git commit -m "Añadida respuesta ejercicio 1.4"
++On branch PAYO-GANDARIAS
++Changes not staged for commit:
++  (use "git add <file>..." to update what will be committed)
++  (use "git restore <file>..." to discard changes in working directory)
++  (commit or discard the untracked or modified content in submodules)
++        modified:   entornos1T (modified content, untracked content)
++
++no changes added to commit (use "git add" and/or "git commit -a")
++PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS> cd entornos1T
++PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS\entornos1T> git add .
++PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS\entornos1T> git commit -m "Añadida respuesta ejercicio 1.4"
++[main 57c6d7e] Añadida respuesta ejercicio 1.4
++ 2 files changed, 31 insertions(+), 1 deletion(-)
++ rewrite README.md (100%)
++ create mode 100644 respuetas/ejercicio1.4.txt
+diff --git a/respuetas/ejercicio1.6.txt b/respuetas/ejercicio1.6.txt
+new file mode 100644
+index 0000000..6aedaf1
+--- /dev/null
++++ b/respuetas/ejercicio1.6.txt
+@@ -0,0 +1,20 @@
++
++ PS D:\Educa\daw1_b\Escritorio\examen-PAYO-GANDARIAS\entornos1T> git log
++commit 57c6d7e8ee3b388be7a629b258c5ccef8d00e489 (HEAD -> main)
++Author: PAYO-GANDARIAS <payos84@hotmail.com>
++Date:   Fri Dec 4 19:44:06 2020 +0100
++
++    Añadida respuesta ejercicio 1.4
++
++commit b79c7ba1a5c71fc30ef8de370fdd12c40e316a8a (origin/main, origin/HEAD)
++Author: Carlos González Sánchez <carlosgs.iesquevedo@gmail.com>
++Date:   Fri Dec 4 11:11:30 2020 +0100
++
++    Update .gitignore
++
++    Ignorar ficheros de IntelliJ y MacOS
++
++commit 7b39baf748c6a994c95cdb9df0eba4b586319a14
++Author: Carlos González Sánchez <carlosgs.iesquevedo@gmail.com>
++Date:   Fri Dec 4 11:03:21 2020 +0100
++:
+\ No newline at end of file
+(END)
